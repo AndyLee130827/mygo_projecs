@@ -27,7 +27,7 @@ func main(){
 		log.Fatal(http.ListenAndServe("localhost:8000",nil))
 		return
 	}
-	lissajous(os.Stdout)
+//	lissajous(os.Stdout)
 }
 func lissajous(out io.Writer){
 	const (
